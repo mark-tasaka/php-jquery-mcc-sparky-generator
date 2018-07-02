@@ -1,0 +1,334 @@
+/* html rules
+--------------------*/
+
+/* id rules
+--------------------*/
+/*
+#sheet{
+    position:relative;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+*/
+
+/*
+section{
+	min-width: 950px;
+	margin: 0 auto;
+}
+*/
+
+body{
+	font-family: sans-serif;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+#character_sheet{
+    width: 950px;
+    height: auto;
+	display: block;
+}
+
+
+/*
+Character 1
+*/
+
+#name{
+    position: absolute;
+    top: 98px;
+    left: 245px;
+	font-size: 0.8em;
+}
+
+#profession{
+    position: absolute;
+    top: 145px;
+    left: 530px;
+	font-size: 0.8em;
+}
+
+
+
+#languageGroup{
+    position: absolute;
+    top: 350px;
+    left: 70px;
+    font-size: 0.75em;
+    width: 320px;
+}
+
+#strength{
+    position:absolute;
+    top: 415px;
+    left: 245px;
+	font-size: 1.6em;
+}
+
+#strengthMod{
+    position:absolute;
+    top: 415px;
+    left: 315px;
+	font-size: 1.6em;
+}
+
+
+#agility{
+    position:absolute;
+    top: 452px;
+    left: 245px;
+	font-size: 1.6em;
+}
+
+#agilityMod{
+    position:absolute;
+    top: 452px;
+    left: 315px;
+	font-size: 1.6em;
+}
+
+
+#stamina{
+    position:absolute;
+    top: 490px;
+    left: 245px;
+	font-size: 1.6em;
+}
+
+#staminaMod{
+    position:absolute;
+    top: 490px;
+    left: 315px;
+	font-size: 1.6em;
+}
+
+
+#personality{
+    position:absolute;
+    top: 530px;
+    left: 245px;
+	font-size: 1.6em;
+}
+
+#personalityMod{
+    position:absolute;
+    top: 530px;
+    left: 315px;
+	font-size: 1.6em;
+}
+
+
+#intelligence{
+    position:absolute;
+    top: 570px;
+    left: 245px;
+	font-size: 1.6em;
+}
+
+#intelligenceMod{
+    position:absolute;
+    top: 570px;
+    left: 315px;
+	font-size: 1.6em;
+}
+
+
+
+#luck{
+    position:absolute;
+    top: 610px;
+    left: 245px;
+	font-size: 1.6em;
+}
+
+#luckMod{
+    position:absolute;
+    top: 610px;
+    left: 315px;
+	font-size: 1.6em;
+}
+
+
+
+
+#baseAC{
+	position: absolute;
+    top: 260px;
+    left: 155px;
+	font-size: 1.5em;
+}
+
+
+#level{
+	position: absolute;
+    top: 145px;
+    left: 255px;
+	font-size: 0.8em;
+}
+
+
+#title{
+	position: absolute;
+    top: 145px;
+    left: 300px;
+	font-size: 0.75em;
+}
+
+
+
+#birthAugur{
+    position: absolute;
+    top: 90px;
+    left:  700px;
+	width: 200px;
+	font-size: 0.6em;
+}
+
+
+
+#hitPoints{
+	position: absolute;
+    top: 260px;
+    left: 330px;
+	font-size: 1.4em;
+}
+
+
+#actionDice{
+    position: absolute;
+    top: 193px;
+    left: 450px;
+	font-size: 0.8em;
+}
+
+
+
+
+#init{
+    position: absolute;
+    top: 683px;
+    left:  355px;
+	font-size: 1em;
+}
+
+#ref{
+    position: absolute;
+    top: 711px;
+    left:  365px;
+	font-size: 1.4em;
+}
+
+#fort{
+    position: absolute;
+    top: 743px;
+    left:  365px;
+	font-size: 1.4em;
+}
+
+#will{
+    position: absolute;
+    top: 776px;
+    left:  365px;
+	font-size: 1.4em;
+}
+
+
+#speed{
+    position: absolute;
+    top: 790px;
+    left:  220px;
+	font-size: 1em;
+}
+
+
+
+#fumbleDie{
+    position: absolute;
+    top: 820px;
+    left:  215px;
+	font-size: 0.9em;
+}
+
+
+
+#melee{
+    position: absolute;
+    top: 693px;
+    left:  155px;
+	font-size: 1.2em;
+}
+
+#meleeDamage{
+    position: absolute;
+    top: 693px;
+    left:  220px;
+	font-size: 1.2em;
+}
+
+#range{
+    position: absolute;
+    top: 720px;
+    left:  155px;
+	font-size: 1.2em;
+}
+
+
+#rangeDamage{
+    position: absolute;
+    top: 720px;
+    left:  220px;
+	font-size: 1.2em;
+}
+
+
+#critDie{
+    position: absolute;
+    top: 193px;
+    left: 560px;
+	font-size: 0.8em;
+}
+
+#critTable{
+    position: absolute;
+    top: 190px;
+    left: 630px;
+	font-family: serif;
+	font-size: 1em;
+}
+
+
+
+
+#artifactCheck{
+    position: absolute;
+    top: 180px;
+    left:  725px;
+    font-size: 1em;
+}
+
+#maxTech{
+    position: absolute;
+    top: 178px;
+    left:  867px;
+    font-size: 1.5em;
+}
+
+
+#equipmentGear{
+    position: absolute;
+    top: 955px;
+    left: 450px;
+    width: 460px;
+	font-size: 0.7em;
+}
+
+
+#zeroLevelMutantAppearance{
+	position: absolute;
+    top: 194px;
+    left: 245px;
+	font-size: 0.7em;
+}
+
